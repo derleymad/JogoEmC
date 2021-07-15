@@ -1,0 +1,60 @@
+  while (1) {
+
+        imprime_Pilha2(tabuleiro);
+        imprime_lista(li,jogador[atual].matricula);
+
+            scanf("%d", &opc);
+
+       /*
+        while (opc>3 || opc<=0 ) {
+
+            printf("\nDigite um valor valido\n-> ");
+            printf("%d\n", scanf("%d", &opc));
+
+        }
+*/
+
+            printf("Escolha agora onde jogar.\n-> ");
+            scanf("s",teste);
+         //   linha = teste[0];
+            coluna = teste[1] - '0';
+           // if (coluna>MAX || lerChar(valorChar,linha>MAX)) return 0;
+
+
+       //linhaNumero = lerChar(valorChar,teste[0]);
+//printf("%d",linhaNumero);
+      //  removerMeio(li, jogador[atual].matricula,1);
+     //   inserir_especifico(tabuleiro,a,linhaNumero,coluna);
+     //  imprime_Pilha2(tabuleiro);
+
+
+
+
+        /*
+         scanf("%d",&opc);
+         while (opc>3 || opc<0 ) {
+             getchar();
+             printf("\nDigite um valor valido\n-> ");
+             scanf("%d",&opc);
+         }
+         */
+
+
+        /*
+        do{
+
+        printf("Escolha agora onde jogar.\n-> ");
+                printf("Linha\n-> ");
+                    linha = getchar();
+                printf("Linha\n-> ");
+                    scanf("%d",&coluna) ;
+        }
+        while (linha != "abcdefghijklmnopqrstuvxzwy");
+
+        linhaNumero = lerChar(valorChar,linha);
+            removerMeio(li, jogador[atual].matricula,valor);
+            inserir_especifico(tabuleiro,a,opc,coluna);
+           // atual++;
+        */
+        system("pause");
+    }

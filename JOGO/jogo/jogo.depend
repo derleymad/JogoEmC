@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1605800674 source:e:\programacao\jogo\jogo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	"jogo.h"
+	"jogolista.h"
+
+1605792206 e:\programacao\jogo\jogo\jogo.h
+
+1605798690 source:e:\programacao\jogo\jogo\jogo.c
+	<stdio.h>
+	<stdlib.h>
+	"jogo.h"
+	"jogolista.h"
+	<string.h>
+	<time.h>
+
+1605709620 e:\programacao\jogo\jogo\jogolista.h
+
